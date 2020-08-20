@@ -1,0 +1,13 @@
+/*
+	int toknum = 0;
+	char src[] = "Hello,, wor ld!";
+	const char delimiters[] = " ";
+	char *token = strtok(src, delimiters);
+	//The function strtok breaks a string into a smaller strings, 
+	//or tokens, using a set of delimiters.
+	while (token != NULL)
+	{
+	printf("%d: [%s]\n", ++toknum, token);
+	token = strtok(NULL, delimiters);
+	}
+	*/
