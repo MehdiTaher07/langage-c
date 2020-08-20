@@ -1,0 +1,11 @@
+/*
+	FILE *even,*odds;
+	int n=10,i=0;
+	even=fopen("even.txt","w");
+	odds=fopen("odds.txt","w");
+	for(i=0;i<=10;i++){
+		i%2==0?fprintf(even,"%d",i):fprintf(odds,"%d",i);
+	}
+	fclose(even);
+	fclose(odds);
+	*/
